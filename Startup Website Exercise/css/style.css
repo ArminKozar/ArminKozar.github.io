@@ -1,0 +1,81 @@
+#newsletter,
+#contact {
+  background: #00aaff;
+}
+
+#main-footer {
+  background: #333;
+}
+
+#home-header {
+  background: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+#header-text {
+  border-bottom: 1px solid white;
+}
+
+#home-header .dark-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.split {
+  background: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+}
+
+.split .dark-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+}
+
+#header-text {
+  margin-top: 5%;
+  border-bottom: 1px solid white;
+}
+
+.btn-header {
+  width: 150px;
+}
+
+#services img,
+#newsletter img {
+  border-radius: 50%;
+  max-height: 85%;
+}
+
+@media (max-width: 576px) {
+  .h1-header {
+    font-size: 72px;
+  }
+
+  .h2-header {
+    font-size: 60px;
+  }
+
+  #header-text {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 1em;
+  }
+}
