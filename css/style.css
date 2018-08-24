@@ -65,7 +65,8 @@
     font-size: 72px;
   }
   
-  .split {
+  .split, 
+  .split .dark-overlay {
     height: 250px;
   }
 
